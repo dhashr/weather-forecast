@@ -1,63 +1,57 @@
-.grid-container {
-        
-    display: grid;
-    grid-template-columns: 50% 50%;
-    background-color: white;
+body{
+    background-color: rgb(119, 30, 155);
+}
+.app-wrap{
+    align-items: center;
     padding: 5px;
+    margin-left: 13cm;
+    margin-top: 1cm;
     height: 100%;
   }
-  .grid-item1{
-  
-      background-color: royalblue;
-      display: grid;
+#input{
+    color: black;
+    margin-top: 1cm;
+    height: 30px;
+    border-radius: 13px 0px 13px 0px;
+    background-color: rgb(194, 114, 226);
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 1px solid coral ;
   }
-  .grid-item{
-  
-  background-color: lightgrey;
-  display: grid;
+#search{
+  border-radius: 0px 13px 0px 13px;
+  background-color: rgb(194, 114, 226);
   }
-  h1, h3{
-      color: white;
-      font-weight: bolder;
-      margin-top: 25%;
+.city{
+    margin-top: 50px;
+    margin-left: 25px;
+    color: white;
+    font-size: xx-large;
   }
-  span{
-      color: black;
-      font-weight: bolder;
-  }
-  p{
-      color: white;
+.date{
+    color: white;
+    font-size: larger;
+    margin-left: 40px;
       
   }
-  li{
-      color: white;
-      
+.temp{
+    margin-top: 70px;
+    margin-left: 1px;
+    color: white;
+    font-size: 2cm;
+    text-shadow: 2px black;
   }
-  .bdy{
-      margin-left: 20%;
-  }
-  .dd{
-      margin-left: 25%;
-      margin-top: 10%;
-  }
-  #pp{
-      color: black;
-  }
-  #show{
-      color: black;
-      font-size: xx-large;
-  }
-  #show1,#show3{
-      color: black;
-      font-size: medium;
-  }
-  #show2{
-      color: black;
-      font-size: xx-large;
-  }
-  #tt{
-      margin-left: 20%;
-      margin-top: 20%;
-  }
+.weather{
+    margin-left: 65px;
+    margin-top: 40px;
+    font-size: xx-large;
+    color: white;
+ }
+.hi-low{
+    margin-left: 35px;
+    margin-top: 50px;
+    color: white;
+    font-size: x-large;
+ }
+
      
     
